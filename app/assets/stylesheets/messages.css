@@ -68,6 +68,26 @@
   height: calc(100vh - 190px);
   background-color: #FAFAFA;
   padding: 46px 40px 0px;
+  overflow: scroll;
+  box-sizing: border-box;
+}
+.upper-message{
+  display: flex;
+  padding-top: 10px;
+}
+.message-user{
+  padding-right: 10px;
+  font-size: 16px;
+  color: #434A54;
+}
+.message-data{
+  font-size: 12px;
+  color: #999;
+}
+.message-content{
+  font-size: 14px;
+  color: #434A54;
+  margin-bottom: 40px;
 }
 .form{
   height: 90px;
